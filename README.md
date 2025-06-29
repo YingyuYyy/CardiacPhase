@@ -28,14 +28,14 @@ Highlights:
 
 ```bash
 .
-├── example/            # Example for latent trajectory visulaization and ED/ES extraction 
-├── models/             # Encoder/decoder architecture and latent motion module
-├── configs/            # Config file for EchoNet-Dynamic
-├── EchoDynamicDataset.py            # Dataloaders for EchoNet-Dynamic
-├── train.py            # Training pipeline
-├── evaluate.py         # evaluation
-├── utils.py         # Functions for trajectory analysis
-├── EDESextraction.ipynb         # ED/ES detection example
+├── example/              # Example for latent trajectory visulaization and ED/ES extraction 
+├── models/               # Encoder/decoder architecture and latent motion module
+├── configs/              # Config file for EchoNet-Dynamic
+├── EchoDynamicDataset.py # Dataloaders for EchoNet-Dynamic
+├── train.py              # Training pipeline
+├── evaluate.py           # evaluation
+├── utils.py              # Functions for trajectory analysis
+├── EDESextraction.ipynb  # ED ES detection example
 ├── requirements.txt 
 └── README.md
 ```
