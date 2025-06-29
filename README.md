@@ -11,7 +11,7 @@ Early Accepted at MICCAI 2025 🎉
 
 ## 🧠 Overview
 
-![Latent Motion Trajectory](figures/method.png)
+![Latent Motion Trajectory](figures/method.jpg)
 
 We propose an **unsupervised, annotation-free method** to detect key cardiac phases—end-diastole (ED) and end-systole (ES)—from echocardiography videos.  
 Our method learns **interpretable motion trajectories** in a low-dimensional latent space without any labels, segmentations, or volume data.
@@ -120,4 +120,5 @@ LIA: https://github.com/wyhsirius/LIA
 
 ## 🔒 License
 
-MIT License. See `LICENSE` for details.
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). See `LICENSE` for details.
+
