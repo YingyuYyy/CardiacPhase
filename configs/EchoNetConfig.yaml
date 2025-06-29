@@ -1,0 +1,15 @@
+# EchoNet-Dynamic config
+# Please change accordingly 
+dmotion: 2                     # Dimension of motion
+zdim: 512                      # Latent dimension size
+lr: 0.001                      # Learning rate
+epochs: 1000                  # Number of training epochs
+frames: 25                    # Number of frames
+t_step: 2                     # Time step between frames
+augment: true                 # Whether to apply data augmentation
+transformation: null          # Transformation type (null or a string)
+savefolder: /save/models/pretrain_echonet  # Directory to save models
+name: my_motion              # Model name or experiment name
+data_dir: /data/Echonet-Dynamic/Videos     # Path to video data
+cache_dir: /data/Echonet-Dynamic/cache     # Path to cache data
+csv_path: /data/Echonet-Dynamic/FileList.csv  # Path to CSV file
