@@ -5,8 +5,7 @@ This repository contains the official implementation of the paper:
 **"Latent Motion Profiling for Annotation-Free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos"**  
 Early Accepted at MICCAI 2025 🎉  
 
-[[📄 Paper Link (TBA)]](https://example.com)
-
+[[📄 Pre-print Paper Link (arxiv)]](https://arxiv.org/abs/2507.05154)
 ---
 
 ## 🧠 Overview
