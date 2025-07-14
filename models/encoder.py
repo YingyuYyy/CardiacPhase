@@ -2,9 +2,7 @@ from torch import nn
 import numpy as np
 import lightning as L
 import torch
-"""
-encoder codes adapted from https://github.com/alain-ryser/tvae  
-"""
+
 
 def assemble_encoder(batch_normalisation=True):
     layers = []
@@ -19,6 +17,7 @@ def assemble_encoder(batch_normalisation=True):
     layers.append(nn.Flatten())
     return nn.Sequential(*layers)
 
+#assemble encoder codes adapted from https://github.com/alain-ryser/tvae  
 class Conv(L.LightningModule):
 
     def __init__(self,
@@ -85,7 +84,8 @@ class Direction(nn.Module):
             out = torch.sum(out, dim=1)
             return out
         
-
+# latent motion encoder 
+# Author: Yingyu Yang
 class AEEncoder(L.LightningModule):
     """
     Encoder base model

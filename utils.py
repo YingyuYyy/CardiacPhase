@@ -114,7 +114,7 @@ def compute_main_orientation_and_extrema(trajectory, fps, theta_threshold_degree
     endpoint1 = mean + t_min * v  # Endpoint 1 (min projection)
     endpoint2 = mean + t_max * v  # Endpoint 2 (max projection)
 
-    # 4. Detect peaks and valleys in the projections (direction changes)
+    # --- Step 3: Detect peaks and valleys in the projections (direction changes) ---
     smoothed_proj = savgol_filter(trajectory_projected, window_length, polyorder)
     
     wander_flag = detect_baseline_wander(trajectory_projected, fps)
@@ -141,7 +141,7 @@ def compute_main_orientation_and_extrema(trajectory, fps, theta_threshold_degree
         peaks = peaks - 1 
         valleys = valleys - 1
 
-    # 5. Group direction changes by proximity to endpoints
+    # --- Step 4: Group direction changes by proximity to endpoints
     # (ED and ES may be opposite, need to be checked using validtion data, in my trained model, ED are in valleys)
     group1_indices = valleys  # Closer to endpoint1 #ED 
     group2_indices = peaks  # Closer to endpoint2 #ES
