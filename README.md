@@ -100,11 +100,11 @@ python train.py --config configs/EchoNetConfig.yaml
 If you use this code or find it helpful, please cite (official citation coming soon):
 
 ```bibtex
-@inproceedings{LatentYang,
-  title     = {Latent Motion Profiling for Annotation-Free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos},
-  author    = {Y Yang et al.},
-  booktitle = {MICCAI},
-  year      = {2025}
+@article{yang2025latent,
+  title={Latent Motion Profiling for Annotation-free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos},
+  author={Yang, Yingyu and Yang, Qianye and Cui, Kangning and Peng, Can and D'Alberti, Elena and Hernandez-Cruz, Netzahualcoyotl and Patey, Olga and Papageorghiou, Aris T and Noble, J Alison},
+  journal={arXiv preprint arXiv:2507.05154},
+  year={2025}
 }
 ```
 
