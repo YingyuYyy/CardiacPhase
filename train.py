@@ -17,7 +17,6 @@ from lightning.pytorch.loggers import TensorBoardLogger
 from lightning.pytorch.callbacks import ModelCheckpoint
 L.seed_everything(666)
 
-
 def parse_args():
     parser = argparse.ArgumentParser(description="Load config from YAML")
     parser.add_argument('--config', type=str, required=True, help='Path to the YAML config file')
@@ -117,4 +116,4 @@ if __name__ == '__main__':
     model = MotionAnatomy2DAE(zdim=zdim, motion_dim=dmotion, lr=lr)
     trainer = L.Trainer(accelerator='gpu', devices=[0], max_epochs=epochs, default_root_dir=savefolder, logger=logger,
                         log_every_n_steps=5, callbacks=[checkpoint_callback, regular_checkpoint])
-    trainer.fit(model=model, train_dataloaders=dataloader_train, val_dataloaders = dataloader_valid)
+    trainer.fit(model=model, train_dataloaders=dataloader_train, val_dataloaders = dataloader_valid) 
