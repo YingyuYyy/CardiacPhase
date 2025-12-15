@@ -3,9 +3,9 @@
 This repository contains the official implementation of the paper:
 
 **"Latent Motion Profiling for Annotation-Free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos"**  
-Early Accepted at MICCAI 2025 🎉  
+MICCAI 2025 Highlight 🎉  
 
-[[📄 Pre-print Paper Link (arxiv)]](https://arxiv.org/abs/2507.05154)
+[[📄 MICCAI Paper Link]](https://papers.miccai.org/miccai-2025/paper/4211_paper.pdf)
 ---
 
 ## 🧠 Overview
@@ -100,11 +100,13 @@ python train.py --config configs/EchoNetConfig.yaml
 If you use this code or find it helpful, please cite (official citation coming soon):
 
 ```bibtex
-@article{yang2025latent,
-  title={Latent Motion Profiling for Annotation-free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos},
-  author={Yang, Yingyu and Yang, Qianye and Cui, Kangning and Peng, Can and D'Alberti, Elena and Hernandez-Cruz, Netzahualcoyotl and Patey, Olga and Papageorghiou, Aris T and Noble, J Alison},
-  journal={arXiv preprint arXiv:2507.05154},
-  year={2025}
+@inproceedings{yang2025latent,
+  title={Latent Motion Profiling for Annotation-Free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos},
+  author={Yang, Yingyu and Yang, Qianye and Cui, Kangning and Peng, Can and D’Alberti, Elena and Hernandez-Cruz, Netzahualcoyotl and Patey, Olga and Papageorghiou, Aris T and Noble, J Alison},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={316--325},
+  year={2025},
+  organization={Springer}
 }
 ```
 
